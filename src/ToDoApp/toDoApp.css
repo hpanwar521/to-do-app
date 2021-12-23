@@ -1,0 +1,51 @@
+.parentContainer{
+    max-width: 50vw;
+    background-color: rgb(14, 14, 17);
+    margin: 20vh auto;
+}
+
+.heading{
+    color : white;
+    text-align: center;
+    padding : 15px;
+}
+
+.bootstarpContainer{
+    padding: 15px;
+}
+
+.createNewCategory{
+    color: white;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-bottom: 2px solid white;
+}
+.createNewCategory:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+.createNewCategoryInput{
+    margin-bottom: 10px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.createNewCategoryInput button{
+    margin-left: 10px;
+   
+}
+.addToDo{
+    margin-left: 20px !important;
+    cursor: pointer;
+}
+.removeAll{
+    display: inline-block;
+    color: white;
+    border-bottom: 2px solid white;
+    margin-left: 48px;
+}
+.removeAll:hover{
+    color: grey;
+    cursor: pointer;
+}
